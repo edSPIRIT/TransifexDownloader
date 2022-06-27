@@ -68,7 +68,7 @@ def check_for_task_id(url):
             url=url,
             headers=HEADERS,
         )
-        if response.headers["Content-Type"] != "application/octet-stream":
+        if response.headers["Content-Type"] == "application/octet-stream":
             flag = False
     return response.content
 
