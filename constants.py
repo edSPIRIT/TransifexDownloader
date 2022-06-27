@@ -13,23 +13,17 @@ ORGANIZATION = "open-edx"
 PROJECT = "open-edx-releases"
 RELEASES = ["release-nutmeg", "release-nutmeg-js"]
 LANGUAGES = [
-    "fa_IR",
-    "en_US",
-    "es-419",
     "ar",
     "de_DE",
-    "tr_TR",
+    "en_US",
+    "es_419",
+    "fa_IR",
     "fr",
-    "ja_JP",
-    "id",
-    "ko-kr",
     "it_IT",
-    "pl",
-    "pt-br",
+    "ja_JP",
     "ru",
-    "th",
+    "tr_TR",
     "uk",
-    "zh-cn",
 ]
 STATUS = ["failed", "pending", "processing"]
 
