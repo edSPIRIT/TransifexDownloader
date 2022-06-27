@@ -68,10 +68,7 @@ def check_for_task_id(url):
             url=url,
             headers=HEADERS,
         )
-        try:
-            if response.json()["data"]["attribute"]["status"] in STATUS:
-                pass
-        except:
+        if response.headers["Content-Type"] != "application/octet-stream":
             flag = False
     return response.content
 
