@@ -110,6 +110,8 @@ def check_for_input():
         print("  python transifex.py <language> <language> <language> ...")
         print("  python transifex.py --help")
         sys.exit(0)
+    elif len(args) == 1 and args[0] == "all":
+        return LANGUAGES 
     else:
         for language in args:
             if language not in LANGUAGES:
