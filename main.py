@@ -1,4 +1,3 @@
-from constants import TOKEN
 from transifex import check_for_input, main
 
 
