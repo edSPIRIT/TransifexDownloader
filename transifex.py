@@ -106,9 +106,9 @@ def check_for_input():
         sys.exit(1)
     elif len(args) == 1 and args[0] == "--help":
         print("Usage:")
-        print("  python transifex.py <language>")
-        print("  python transifex.py <language> <language> <language> ...")
-        print("  python transifex.py --help")
+        print("  python main.py <language>")
+        print("  python main.py <language> <language> <language> ...")
+        print("  python main.py --help")
         sys.exit(0)
     elif len(args) == 1 and args[0] == "all":
         return LANGUAGES 
