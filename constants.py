@@ -12,7 +12,25 @@ TRANSLATION_URL = BASE_URL + "resource_translations_async_downloads"
 ORGANIZATION = "open-edx"
 PROJECT = "open-edx-releases"
 RELEASES = ["release-nutmeg", "release-nutmeg-js"]
-LANGUAGES = ["fa_IR", "en_US", "ar", "de_DE", "tr_TR", "ru", "fr", "ja_JP", "it_IT", "uk"]
+LANGUAGES = [
+    "fa_IR",
+    "en_US",
+    "es-419",
+    "ar",
+    "de_DE",
+    "tr_TR",
+    "fr",
+    "ja_JP",
+    "id",
+    "ko-kr",
+    "it_IT",
+    "pl",
+    "pt-br",
+    "ru",
+    "th",
+    "uk",
+    "zh-cn",
+]
 STATUS = ["failed", "pending", "processing"]
 
 TRANSLATIONS_PAYLOAD = {
