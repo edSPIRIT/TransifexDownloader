@@ -19,7 +19,6 @@ LANGUAGES = [
     "es_419",
     "fa_IR",
     "fr",
-    "it_IT",
     "ja_JP",
     "ru",
     "tr_TR",
